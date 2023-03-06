@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CitasSpringApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(CitasSpringApplication.class, args);
 	}
 
