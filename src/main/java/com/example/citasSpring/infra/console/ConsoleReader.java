@@ -67,7 +67,7 @@ public class ConsoleReader {
                     List<Cita> citas = citaService.listar();
                     System.out.println("Listado de citas: ");
                     for(Cita cita: citas){
-                        System.out.printf("Id %s, nombre: %s, apellidos: %s, fecha: ", citas.indexOf(cita), cita.getNombre() , cita.getApellido() ,fechaFormateador.format(cita.getDate()));
+                        System.out.printf("Id %s, nombre: %s, apellidos: %s, fecha: %s", citas.indexOf(cita), cita.getNombre() , cita.getApellido() ,fechaFormateador.format(cita.getDate()));
                         System.out.println();
                     }
                     break;
